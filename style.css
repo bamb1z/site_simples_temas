@@ -1,58 +1,62 @@
 :root {
-    --green: #74d374;
-    --pink: #ff3d78;
-    --white: #fff;
+    --yellow: rgb(255, 145, 0, 0.979);
+    --purple: rgb(166, 0, 255);
+    --orange: rgb(255, 66, 41);
 }
 
 *{
     color: var(--fontColor);
-    font-family: Helvetica;
+    font-family: "OCR A Std", monospace;
 }
 
 body{
-    background: var(--bg);
+    background: var(--bg); 
+    margin: 10% 30%;
 }
 
-ul{
-    font-family: Helvetica;
+h1{
+    font-size: 5em;
+    text-align: center;
 }
+
 
 #msg{
-    font-family: cursive;
+   font-weight: bolder;
+   word-spacing: 6px;
+   font-size: 15px;
 }
 
-li{
+ul {
+    padding-left: 140px;
     list-style: circle;
 }
 
-.list{
-    list-style: square;
-}
+
 
 .light-theme {
-  --fontColor: var(--pink);
-  --bg: var(--green);
-  --btnFontColor:var(--white);
-  --btnBg:var(--pink);
+  --fontColor: var(--purple);
+  --bg: var(--yellow);
+  --btnFontColor:var(--orange);
+  --btnBg:var(--purple);
 }
 
 .dark-theme {
-    --bg: var(--pink);
-    --fontColor: var(--green);
-    --btnFontColor:var(--white);
-    --btnBg: var(--green);
+    --bg: var(--purple);
+    --fontColor: var(--yellow);
+    --btnFontColor:var(--orange);
+    --btnBg: var(--yellow);
 }
 
 .btn{
     color: var(--btnFontColor);
     background-color: var(--btnBg);
-    position: absolute;
-    top: 20px;
-    left: 250px;
+    position: relative;
+    top: 10px;
+    left: 425px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: none;
+    
 }
 
-.btn:focus { outline-style: blue;}
