@@ -1,6 +1,6 @@
 :root {
     --yellow: rgb(255, 145, 0, 0.979);
-    --purple: rgb(166, 0, 255);
+    --purple: rgb(126, 1, 194);
     --orange: rgb(255, 66, 41);
 }
 
@@ -23,14 +23,19 @@ h1{
 #msg{
    font-weight: bolder;
    word-spacing: 6px;
-   font-size: 15px;
+   font-size: 25px;
 }
 
 ul {
     padding-left: 140px;
     list-style: circle;
+    
 }
 
+ul li{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 .light-theme {
